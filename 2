@@ -8,8 +8,7 @@ int main() {
 
     printf("Digite o valor do segundo número: ");
     scanf("%d", &num2);
-
-    // Comparação de endereços e exibição do maior
+    
     if (&num1 > &num2) {
         printf("O endereço do primeiro número é maior: %p\n", (void *)&num1);
     } else if (&num2 > &num1) {
